@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<link rel='stylesheet' href="../styles/style-page1.css">
 	<title>Palo Alto</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="7bits courses 2016-2017">
+	
+	<link rel="shortcut icon" href="../images/favicon.ico" sizes="32x32"/>
+	
+	<link rel='stylesheet' href="../../node_modules/normalize.css/">
+	<link rel='stylesheet' href="../../node_modules/normalize.css/normalize.css">
+	
+	<link rel='stylesheet' href="../styles/style-page1.css">
+	
 	
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	
+	
 	
 </head>
 <body>
@@ -15,36 +26,51 @@
 <div class="content">
 	<header class = "header">
 			<a class = "header__logo-link logo" href="index.html">
-					<img class="logo" src="../images/logo.png" alt="Error">
+					<img class="logo" src="../images/logo.png" alt="Error" >
 			</a>
 			<nav class="nav">
 				<ul class = "nav__ul">
+				
 					<li class = "nav-ul__link">
-					<a class = "nav__li-link link-hover"  href="#">
-					<span class = "text-link">home</span></a></li>
-					
-					<li class = "nav-ul__link">
-					<a class = "nav__li-link" href="#"><span class = "text-link">about</span></a></li>
-					
-					<li class = "nav-ul__link">
-					<a class = "nav__li-link" href="#">
-					<span class = "text-link">archive</span></a></li>
+						<a class = "nav__li-link"  href="#">
+							<span class = "text-link">home</span>
+						</a>
+					</li>
 					
 					<li class = "nav-ul__link">
 						<a class = "nav__li-link" href="#">
-						<span class = "text-link">contact</span></a></li>
+							<span class = "text-link">about</span>
+						</a>
+					</li>
 					
 					<li class = "nav-ul__link">
-					<a class = "nav__li-link" href="#">
-					<img  src="../images/search.png" alt="Error">
-					</a></li>
+						<a class = "nav__li-link" href="form.html">
+							<span class = "text-link">archive</span>
+						</a>
+					</li>
+					
+					<li class = "nav-ul__link">
+						<a class = "nav__li-link" href="form.html">
+							<span class = "text-link">contact</span>
+						</a>
+					</li>
+					
+					<li class = "nav-ul__link">
+						<a class = "nav__li-link" href="#">
+							<img class = "search">
+						</a>
+					</li>
 				</ul>
 			</nav>
 	</header>
 	
 	<main class = "main">
+		
+		
+		<!-- section 1 -->
 		<div class = "section">
 		
+	
 		<div class = "booket">
 				<div class ="booket__span">i do travel</div>
 			</div>
@@ -55,15 +81,19 @@
 			
 			
 			
-			<h1 class = "main-title">No difference how many peaks you reach if there was no pleasure in the climb.</h1>
-			<div class = "hr"></div>
+			<h1 class = "main-title">
+				No difference how many peaks you reach if there was no pleasure in the climb.
+			</h1>
+			
+			<div class = "hr">
+			</div>
 			
 			<p class = "text1">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.</p>
 			
 			
 			
 			<div class = "footer-section">
-				<a class = "read-more" href="#">READ MORE</a>
+				<a class = "read-more" href="form.html">read more</a>
 				
 				<ul class = "tags">
 					<li class = "tags-ul__link">
@@ -83,9 +113,12 @@
 		
 		
 		<div class = "post-with-image"> 
-		<img class = "image-maount" src="../images/mount.jpg" alt="">
+			
+		<img class = "image-maount" src="../images/mount.jpg"
+			srcset="../images/mount.jpg 1x, ../images/mount@2x.jpg 2x" alt="">
 		
-		<div class = "section section__mod">
+		<div class="section section__mod">
+		
 		
 			<div class = "booket booked_mod1">
 				<div class = "booket__span">i do observe</div>
@@ -108,7 +141,7 @@
 			
 			
 			<div class = "footer-section">
-				<a class = "read-more" href="#">READ MORE</a>
+				<a class = "read-more" href="form.html">read more</a>
 				
 				<ul class = "tags">
 					<li class = "tags-ul__link">
@@ -120,17 +153,15 @@
 					<li class = "tags-ul__link">
 					<a class="tags__link" href = "#">#Photo</a></li>
 				</ul>
+			
 			</div>
-			
-			
-			
 			</div>
 		 </div>
 		 
-		 
+		 <!-- SECTION 3-->
 		<div class = "section">
 		
-			<div class = "booket">
+			<div class = "booket booked_mod2">
 				<div class ="booket__span">i do reflect</div>
 			</div>
 		
@@ -141,14 +172,16 @@
 			<div class = "hr"></div>
 			
 				
-			<p class = "text1"><img class = "text1__image" src="../images/modelwoman.jpg" alt="Error">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis. Praesent dictum eleifend dui et efficitur. Nunc non orci in neque sodales semper. Etiam euismod volutpat lorem, <strong class="text-style">vestibulum malesuada</strong> justo aliquet eget. Nunc lacus ante, varius a euismod eu, finibus commodo erat. Curabitur tincidunt sit amet nunc id interdum. Aliquam augue nisi, venenatis vitae ex at, lobortis fringilla nibh. Proin placerat enim vitae egestas eleifend. Aliquam
+			<p class = "text1">
+			<img class = "text1__image" src="../images/modelwoman.jpg" srcset="../images/modelwoman.jpg 1x, ../images/modelwoman@2x.jpg 2x" alt="" alt="Error">
+			Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis. Praesent dictum eleifend dui et efficitur. Nunc non orci in neque sodales semper. Etiam euismod volutpat lorem, vestibulum malesuada justo aliquet eget. Nunc lacus ante, varius a euismod eu, finibus commodo erat. Curabitur tincidunt sit amet nunc id interdum. Aliquam augue nisi, venenatis vitae ex at, lobortis fringilla nibh. Proin placerat enim vitae egestas eleifend. Aliquam
 			</p>
 								
 								
 			
 									
 				<div class = "footer-section">
-				<a class = "read-more" href="#">READ MORE</a>
+				<a class = "read-more" href="form.html">read more</a>
 				
 				<ul class = "tags">
 					<li class = "tags-ul__link">
@@ -179,34 +212,67 @@
 		<nav class="nav-footer">
 				<ul class = "footer-nav__ul">
 					<li class = "footer-nav-ul__link">
-					<a class = "footer-nav__li-link "  href="#">
-					home</a></li>
+						<a class = "footer-nav__li-link "  href="#">home</a>
+					</li>
 					
 					<li class = "footer-nav-ul__link">
-					<a class = "footer-nav__li-link" href="#">about</a></li>
+						<a class = "footer-nav__li-link" href="#">about</a>
+					</li>
 					
 					<li class = "footer-nav-ul__link">
-					<a class = "footer-nav__li-link" href="#">
-					archive</a></li>
+						<a class = "footer-nav__li-link" href="#">archive</a>
+					</li>
 					
 					<li class = "footer-nav-ul__link">
 						<a class = "footer-nav__li-link" href="#">
 						contact</a></li>
 					
 					<li class = "footer-nav-ul__link">
-					<a class = "footer-nav__li-link" href="#">
-					<img  src="../images/search-white.png" alt="Error">
-					</a></li>
+						<a class = "footer-nav__li-link" href="#">
+							<img  src="../images/search-white.png" alt="Error">
+						</a>
+					</li>
 				</ul>
-			</nav>	
+			</nav>
 			
-			
-			
-			
-			
+		<h6 class = "footer-text1">	
+				Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor.
+		</h6>
+	
+		<h6 class="footer-text1 upperLetter">		
+			© 2015 - palo alto. all rights reserved. designed  developed by 
+			<span class = "name-dev-group-site">PixelBuddha Team</span>
+		</h6>
+     
+      <nav class="nav-footer nav-icons">
+				<ul class = "footer-nav__ul">
+					<li class = "footer-nav-ul__link">
+						<a class = "footer-nav__li-link "  href="#">
+							<img src="/src/images/facebook-footer.png" alt="">
+						</a>
+					</li>
+					
+					<li class = "footer-nav-ul__link">
+						<a class = "footer-nav__li-link" href="#">
+							<img src="/src/images/twitter-footer.png" alt="">
+						</a>
+					</li>
+					
+					<li class = "footer-nav-ul__link">
+						<a class = "footer-nav__li-link" href="#">
+							<img src="/src/images/instagram-footer.png" alt="">
+						</a>
+					</li>
+					
+					<li class = "footer-nav-ul__link">
+						<a class = "footer-nav__li-link" href="#">
+							<img src="/src/images/pinterest-footer.png" alt="">
+						</a>
+					</li>
+				</ul>
+		</nav>			 			
 		</div>
 	</footer>
-	
 	
 </body>
 </html>

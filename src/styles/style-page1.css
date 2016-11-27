@@ -10,7 +10,6 @@ body {
 	padding: 0;
 	height: 100%;
 	background: #F7F9FC;
-	
 }
 
 .wrapper {
@@ -21,7 +20,7 @@ body {
 .content {
   box-sizing: border-box;
   min-height: 100%;
-  padding-bottom: 640px;
+  padding-bottom: 600px;
 }
 
 .header {
@@ -38,7 +37,7 @@ body {
 }
 
 .nav {
-	font-family: 'Loto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	font-size: 16pt;
 	text-transform: uppercase;
@@ -55,25 +54,49 @@ body {
 }
 
 .nav__li-link{
+	color: #5C6BC0;
 	text-decoration: none;
 }
 
-.nav__li-link .text-link {
+.nav__li-link .text-link{
 	color: #333333;
 	text-decoration: none;
 }
 
-.nav__li-link:hover {
-	 color:#5C6BC0;
+.nav__li-link:hover{
 	text-decoration: underline;
 }
-.nav__li-link:visited  .text-link{
+
+.nav__li-link:active .text-link{
+	color: #5C6BC0;
+	text-decoration-line: none;
 	text-decoration: none;
 }
+.nav__li-link:disabled .text-link{
+	color:#BDBDBD;
+	text-decoration-line: none;
+	text-decoration: none;
+}
+
+
 
 /* Для навигации футера*/
 .nav-footer-ul__link {
 	color: #FFFFFF;
+}
+
+
+.search:visited {
+	background: url(../images/search/inactive-search.png);
+}
+.search{
+	width: 16px;
+	height: 16px;
+	border: 0;
+	background: url(../images/search/normal-search.png);
+}
+.search:hover {
+	background: url(../images/search/hover-search.png);
 }
 
 
@@ -100,6 +123,7 @@ body {
 	background: #FFFFFF;
 }
 .post-with-image {
+	box-shadow: 0 0 30px 6px #EBEDF0;
 	margin: auto;
 }
 .section__mod {
@@ -150,8 +174,14 @@ body {
 	position: relative;
 }
 .booked_mod1 {
-	width: 102px;
+	width: 108px;
 }
+
+
+.booked_mod2 {
+	width: 100px;
+}
+
 
 .text1 {
 	width: 756px;
@@ -162,6 +192,7 @@ body {
 	line-height: 30px;
 	color: #333333;
 }
+
 
 .text2 {
 	width: 756px;
@@ -190,6 +221,7 @@ body {
 	font-size: 21px;
 	font-weight: bold;
 	text-decoration: none;
+	text-transform: uppercase;
 	
 	float: left;
 	color:  #5C6BC0;
@@ -216,6 +248,10 @@ body {
 .image-maount {
 	width: 950px;
 	margin-top: 50px;
+	position: ;
+	left: 0;
+	top: 0;
+	
 }
 
 
@@ -224,7 +260,10 @@ body {
 	float: left;
 }
 
+/**
 
+	Stylies of Footer
+**/
 
 
 .footer {
@@ -234,8 +273,8 @@ body {
 	 
     left: 0;
 	bottom: 0;
-	height: 530px;
-  	margin-top: -530px;
+	height: 500px;
+  	margin-top: -500px;
  	 
 }
 .footer-content {
@@ -278,3 +317,28 @@ body {
 
 
 
+
+.footer-text1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	color: #909BD4;
+	text-align: center;
+	
+	margin-top: 80px;
+}
+
+
+.upperLetter {
+	text-transform: capitalize;
+}
+
+
+.name-dev-group-site {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.nav-icons {
+	margin: auto;
+	text-align: center;
+}
