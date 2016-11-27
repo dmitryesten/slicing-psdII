@@ -173,6 +173,25 @@ body {
 	
 	position: relative;
 }
+
+.booket:hover{
+	transition: 2s;
+	padding-top: 13px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 13px;
+	background: #6C79C6;
+}
+
+.booket:active{
+	transition: 1s;
+	padding-top: 13px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 13px;
+	background: #5360AC;
+}
+
 .booked_mod1 {
 	width: 108px;
 }
@@ -181,6 +200,11 @@ body {
 .booked_mod2 {
 	width: 100px;
 }
+
+
+
+
+
 
 
 .text1 {
@@ -226,6 +250,10 @@ body {
 	float: left;
 	color:  #5C6BC0;
 }
+
+
+<>
+
 .tags {
 	font-family: 'Lato', sans-serif;
 	font-size: 15px;
@@ -242,6 +270,25 @@ body {
 	text-decoration: none;
 	color: #B7B7B7;
 }
+
+.tags__link .span-tags{
+	color: #B7B7B7;
+	text-decoration: none;
+}
+
+.tags__link:hover{
+	color: #5C6BC0;
+	text-decoration: underline;
+}
+
+.tags__link:active .span-tags{
+	color: #5C6BC0;
+	text-decoration: none;
+}
+
+
+
+
 
 
 
@@ -287,6 +334,12 @@ body {
 	margin-left: 405px;
 }
 
+
+
+
+
+
+
 .nav-footer {
 	font-family: 'Loto', sans-serif;
 	font-weight: bold;
@@ -304,15 +357,36 @@ body {
 .footer-nav-ul__link {
 	margin: auto;
 	display: inline;
-	
-	
-	
 }
 .footer-nav__li-link {
 	color:#FFFFFF;
-	
 	text-decoration: none;
 }
+
+.footer-nav__li-link .span-footer-link{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.footer-nav__li-link:hover{
+	text-decoration: underline;
+}
+
+.footer-nav__li-link:active .span-footer-link{
+	color: #5C6BC0;
+	text-decoration-line: none;
+	text-decoration: none;
+}
+.footer-nav__li-link:disabled .span-footer-link{
+	color:#BDBDBD;
+	text-decoration-line: none;
+	text-decoration: none;
+}
+
+
+
+
+
 
 
 
@@ -336,6 +410,9 @@ body {
 .name-dev-group-site {
 	font-size: 14px;
 	color: #FFFFFF;
+}
+.name-dev-group-site:hover{
+	text-decoration: underline;
 }
 
 .nav-icons {
