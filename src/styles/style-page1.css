@@ -14,8 +14,6 @@ body {
 
 .wrapper {
 	height: 100%;
-	
-	
 }
 .content {
   box-sizing: border-box;
@@ -252,7 +250,7 @@ body {
 }
 
 
-<>
+
 
 .tags {
 	font-family: 'Lato', sans-serif;
