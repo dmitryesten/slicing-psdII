@@ -11,11 +11,15 @@
 	<link rel='stylesheet' href="../../node_modules/normalize.css/">
 	<link rel='stylesheet' href="../../node_modules/normalize.css/normalize.css">
 	
-	<link rel='stylesheet' href="../styles/style-page1.css">
 	
+	<link rel='stylesheet' href="../styles/style-page1.css">
+	<link rel='stylesheet' href="../styles/showmenu.css">
+	<link rel='stylesheet' href="../scripts/jquery-3.1.1.min.js">
+	
+	<link rel='stylesheet' href="../scripts/barmenu.js">
 	
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-	
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	
 	
 </head>
@@ -65,6 +69,29 @@
 	</header>
 	
 	<main class = "main">
+		
+		<div class = "contextmenu">
+				<button class = "buttonmenu">
+					<div class = "line"></div>
+					<div class = "line"></div>
+					<div class = "line line3"></div>
+				</button>
+			
+			<div class = "rightmenu">
+					<input class = "searchinput" type="text" placeholder = "SEARCH">
+					<a href="#">
+					<img id = "schinput" src="../images/search/hover-search.png" alt="error">
+					</a>
+			</div>
+			
+			
+			<script>
+				$( ".buttonmenu" ).click(function() {
+  					$( ".rightmenu" ).toggle( "slow", function() {});
+				});
+			</script>
+		</div>
+		
 		
 		
 		<!-- section 1 -->
@@ -300,6 +327,11 @@
 		</nav>			 			
 		</div>
 	</footer>
+	
+	
+	
+	<link rel='stylesheet' href="../scripts/jquery-3.1.1.min.js">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 	
 </body>
 </html>
